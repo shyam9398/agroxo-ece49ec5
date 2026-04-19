@@ -1,4 +1,4 @@
-import { Leaf } from "lucide-react";
+import { Leaf, Mail } from "lucide-react";
 
 const Footer = () => (
   <footer className="border-t border-border py-12 bg-background">
@@ -13,6 +13,11 @@ const Footer = () => (
           <a href="#technology" className="hover:text-primary transition-colors">Technology</a>
           <a href="#contact" className="hover:text-primary transition-colors">Contact</a>
         </div>
+        <a href="mailto:agroxo.founder@gmail.com" className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
+          <Mail className="w-4 h-4" /> agroxo.founder@gmail.com
+        </a>
+      </div>
+      <div className="mt-8 pt-6 border-t border-border text-center">
         <p className="text-sm text-muted-foreground">© 2026 Agroxo. All rights reserved.</p>
       </div>
     </div>
