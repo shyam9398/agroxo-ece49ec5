@@ -33,7 +33,7 @@ const ContactSection = () => {
       </form>
       <a
         href={`mailto:${CONTACT_EMAIL}`}
-        className="mt-6 mx-auto flex items-center justify-center gap-2 max-w-fit px-4 py-2 rounded-full bg-primary/10 border border-primary/30 text-sm text-primary-foreground hover:bg-primary/20 transition-colors backdrop-blur-sm"
+        className="mt-8 mx-auto flex items-center justify-center gap-2 max-w-fit px-5 py-2.5 rounded-full bg-primary text-primary-foreground border border-primary shadow-lg text-sm font-medium hover:bg-primary/90 hover:scale-105 transition-all"
       >
         <Mail className="w-4 h-4" /> Or contact us directly: {CONTACT_EMAIL}
       </a>
